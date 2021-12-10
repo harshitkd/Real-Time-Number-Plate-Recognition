@@ -14,17 +14,17 @@ These outline the steps I used to go through in order to get up and running with
 
 ### Install and Setup :
 
-<b>Step 1.</b> Clone this repository: 
+<b>Step 1.</b> Clone this repository: https://github.com/harshitkd/Real-Time-Number-Plate-Recognition
 <br/><br/>
 <b>Step 2.</b> Create a new virtual environment 
 <pre>
-python -m venv tfod
+python -m venv arpysns
 </pre> 
 <br/>
 <b>Step 3.</b> Activate your virtual environment
 <pre>
 source tfod/bin/activate # Linux
-.\tfod\Scripts\activate # Windows 
+.\arpysns\Scripts\activate # Windows 
 </pre>
 <br/>
 <b>Step 4.</b> Install dependencies and add virtual environment to the Python Kernel
@@ -41,7 +41,7 @@ Used the [Car License Plate Detection](https://www.kaggle.com/andrewmvd/car-plat
 ### Training Object Detection Model
 I used pre-trained state-of-the-art model and just fine tuned it on our particular specific use case.Begin the training process by opening [Real Time Number Plate Detection](https://github.com/harshitkd/Real-Time-Number-Plate-Recognition/blob/main/Real%20Time%20Number%20Plate%20Detection.ipynb) and installed the Tensoflow Object Detection (TFOD) 
 
-![68747470733a2f2f692e696d6775722e636f6d2f465351466f31362e706e67](https://user-images.githubusercontent.com/56076028/145536278-2c7af954-6574-4ca9-a74f-f935d1f77dd2.png)
+![68747470733a2f2f692e696d6775722e636f6d2f465351466f31362e706e67](https://user-images.githubusercontent.com/56076028/145552503-b3a442a4-03bf-467e-af74-3e218c949dad.png)
 
 In the below image you will see the object detection model which is now trained. I have decided to train it on the terminal because the training inside a separate terminal on a windows machine displays live loss metrics.
 

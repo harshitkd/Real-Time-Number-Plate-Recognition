@@ -31,7 +31,7 @@ source tfod/bin/activate # Linux
 <pre>
 python -m pip install --upgrade pip
 pip install ipykernel
-python -m ipykernel install --user --name=tfodj
+python -m ipykernel install --user --name=anprsys
 </pre>
 <br/>
 

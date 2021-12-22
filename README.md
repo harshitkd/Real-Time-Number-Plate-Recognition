@@ -6,7 +6,7 @@
 * [yolov4](https://github.com/theAIGuysCode/yolov4-custom-functions) : I used this OD model because it performs much better than traditional computer vision methods.
 * [Easy OCR](https://github.com/JaidedAI/EasyOCR) : In this project I used EasyOCR to extract text and leverage a size filtering algorithm to grab the largest detection region. EasyOCR is build on PyTorch.
 * [openCV](https://opencv.org/): It is a library mainly used at real-time computer vision.
-* [Tensorflow](https://github.com/tensorflow/models) : Here I used Tensorflow object detection API to detect the plate trained on a Kaggle Dataset.
+* [Tensorflow](https://github.com/tensorflow/models) : Here I used Tensorflow object detection Model (SSD MobileNet V2 FPNLite 320x320) to detect the plate trained on a Kaggle Dataset.
 * Python Libraries: Most of the libraries are mentioned in [requirements.txt](https://github.com/harshitkd/Real-Time-Number-Plate-Recognition/blob/main/requirements.txt) but some of the libraries and requirements depends on the user's machines, whether its installed or not and also the libraries for Tensorflow Object Detection (TFOD) consistently change. Eg: pycocotools, pytorch with CUDA acceleration (with or without GPU), microsoft visual c++ 19.0 etc.
 
 ## Steps

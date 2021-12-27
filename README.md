@@ -49,6 +49,10 @@ In the below image you will see the object detection model which is now trained.
 
 * Visualization of Loss Metric, learning rate and number of steps:
 
+<pre>
+tensorboard --logdir=.
+</pre>
+
 ![tensorboard loss](https://user-images.githubusercontent.com/56076028/145684910-d237be53-88d4-45fa-b36e-dd9a52daf8e1.jpg)
 
 ![tensorboard learning and steps](https://user-images.githubusercontent.com/56076028/145684923-36a95279-5b27-4f25-bd2d-ea58eaa82075.jpg)
@@ -79,6 +83,10 @@ Used this in real time to detect the license plate and stored the text in .csv f
 ![evaluation metric](https://user-images.githubusercontent.com/56076028/145684944-29306983-8396-47a2-9a08-f13a86d56f08.jpg)
 
 ![evaluation metric detail](https://user-images.githubusercontent.com/56076028/145684945-7f17e0b6-e623-4a71-b163-388a84d713fd.jpg)
+
+<pre>
+tensorboard --logdir=.
+</pre>
 
 ![mAP](https://user-images.githubusercontent.com/56076028/145684953-51fc55d3-c9cd-4789-807e-0cfa0196000c.jpg)
 
